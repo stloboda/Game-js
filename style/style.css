@@ -1,0 +1,33 @@
+body {
+  background: url("../img/back.jpg") no-repeat;
+  position: fixed;
+}
+
+#wrapper {
+  width: 800px;
+  height: 500px;
+  margin-left: 260px;
+  margin-top: 70px;
+  background-image: url("../img/stars.jpg");
+  border: none;
+}
+
+#startBtn {
+  position: absolute;
+  z-index: 100;
+  left: 54%;
+  top: 50%;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: -100px;
+  border-radius: 50px;
+  border: none;
+  background: aliceblue;
+}
+
+#startBtn:hover {
+  background: darkgray;
+}
+
+/*# sourceMappingURL=style.css.map */
